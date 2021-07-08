@@ -1,3 +1,273 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.bg-light {
+    background: rgb(220, 219, 219) !important;
+    padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600
+}
+
+.container .navbar .nav_our ul.our_menu li {
+    padding: 5px 10px;
+}
+
+.container .navbar .nav_our ul.our_menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    color: #707070;
+    transition: all .4s ease;
+}
+
+.container .navbar .nav_our ul.our_menu li a:hover {
+    color: #FF136F;
+}
+
+.container .navbar .nav_our ul.our_menu li a span {
+    color: #FF136F;
+}
+
+.container .navbar .nav_our ul.our_menu {
+    margin-left: auto;
+}
+
+.container .navbar .nav_our ul.our_menu .sarch_input input {
+    border: none;
+    border: 1px solid #707070;
+    border-radius: 40px;
+    outline: none;
+    width: 400px;
+    color: #707070;
+}
+
+.container .navbar .nav_our ul.our_menu .sarch_input {
+    position: relative;
+}
+
+.container .navbar .nav_our ul.our_menu .sarch_input .search_icons {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    color: #6C798D;
+}
+
+
+/* Start hero section =================== */
+
+.carousel {
+    margin-top: 50px;
+}
+
+.orange-bg {
+    background: #ddcbcb !important;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.hero-heding {
+    font-size: 40px;
+    color: #1F1F1F;
+}
+
+.hero-pragraph {
+    color: #707070;
+    font-size: 15px;
+}
+
+.price {
+    color: #FF136F;
+    font-size: 40px;
+}
+
+.boy-now-batton {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(#FF589B, #FF136F);
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+
+/* start Categories Section ==================== */
+
+.catagory-sction {
+    margin-top: 50px;
+}
+
+.catagory-sction .row .catagori .iner-text-img .col img {
+    width: 100px;
+}
+
+.catagory-sction .row .catagori .iner-text-img {
+    margin: 0 5px;
+    padding: 10px 30px;
+}
+
+.catagory-sction .row .catagori .iner-text-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.catagory-sction .row .catagori .iner-text-img .col {
+    justify-self: center;
+}
+
+.catagory-sction .row .catagori .blue-bg {
+    background-image: linear-gradient(90deg, hsl(31, 100%, 60%), #FFD019);
+    border-radius: 10px;
+    color: white;
+}
+
+.catagory-sction .row .catagori .prpale-bg {
+    background-image: linear-gradient(180deg, #FF589B, #FF136F);
+    border-radius: 10px;
+    color: white;
+}
+
+.catagory-sction .row .catagori .yellow-bg {
+    background-image: linear-gradient(90deg, #4289FF, #3F07F8);
+    border-radius: 10px;
+    color: white;
+}
+
+.catagory-sction #top-headr {
+    font-size: 30px;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+}
+
+
+/* start Shoes items  =============================== */
+
+.shoes_items {
+    margin-top: 60px;
+}
+
+.shoes_items .show_header {
+    color: #1F1F1F;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.shoes_items .col-md-4 .card .card-body h5.card-title {
+    font-size: 24px;
+    color: #1F1F1F;
+}
+
+.shoes_items .col-md-4 .card {
+    border: none;
+}
+
+.shoes_items .col-md-4 .card {
+    padding: 15px;
+}
+
+.shoes_items .col-md-4 .card .card-body p.card-text {
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.shoes_items .col-md-4 .card .card-body h2.price {
+    font-size: 24px;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+}
+
+.shoes_items .col-md-4 .card .card-body .btn-primary {
+    padding: 8px 30px;
+    text-transform: uppercase;
+    background: #000000;
+    border: none;
+    transition: all .4s ease;
+}
+
+.shoes_items .col-md-4 .card .card-body .btn-primary:hover {
+    background: #FF136F;
+}
+
+
+/* start Backpack section ================ */
+
+
+/* same show desgn >>>>>>>>>> */
+
+
+/* start LET'S STAY IN TOUCH section  =================================== */
+
+.lets_say {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lets_say .col-md-12 h2 {
+    font-size: 30px;
+    color: #1F1F1F;
+    margin-bottom: 10px;
+}
+
+.lets_say .col-md-12 p {
+    font-size: 17px;
+    color: #707070;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.lets_say .col-md-12 form {
+    width: 500px;
+    height: 50px;
+    background: red;
+    margin: auto;
+    position: relative;
+}
+
+.lets_say .col-md-12 form input {
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+}
+
+.lets_say .col-md-12 form .sent-btn {
+    background-image: linear-gradient(#FF589B, #FF136F);
+    z-index: 10;
+    position: absolute;
+    display: inline-block;
+    padding: 11px 30px;
+    top: 0;
+    right: 0;
+}
+
+.lets_say .col-md-12 form .sent-btn span {
+    text-transform: capitalize;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* staert copy right section  ==================================== */
+
+.copy-right-section {
+    margin-top: 100px;
+}
+
+.copy-right-section .col-md-12 h6 {
+    color: #828285;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
